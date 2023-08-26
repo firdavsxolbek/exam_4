@@ -17,20 +17,19 @@
 //     let mergedString = string.replace(/\d+/g, "");
 //     return [numbers, mergedString];
 //   }
-  
+
 //   let str_1 = "1java2script3 5deve6lo4per";
 //   let result = extractNumbersAndMerge(str_1);
 //   console.log(result[0]);
 //   console.log(result[1]);
 
 
-// 1-masala
+// 1 - masala
 
-//   function removeWordByIndex(arr, index) {
-//     arr.splice(index, 1); 
-//     return arr;
-//   }
-  
-//   var words = ["I", "study", "JavaScript", "right", "now"];
-//   console.log(removeWordByIndex(words, 3)); 
-  
+function removeWordByIndex(arr, index) {
+    arr.splice(index, 1);
+    return arr;
+}
+
+var words = ["I", "study", "JavaScript", "right", "now"];
+console.log(removeWordByIndex(words, 3));
